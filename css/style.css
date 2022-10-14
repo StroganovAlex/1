@@ -6,12 +6,12 @@ h3 { text-align: center; }
 
 table {
 width: 100%;
-background: white;
+background-color: #ffffff
 border-collapse: collapse;
 }
 
 th {
-background: white;
+background-color: #ffffff;
 font-weight: bold;
 padding: 50px;
 }
