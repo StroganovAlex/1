@@ -3,42 +3,50 @@
   <head>
     <meta charset="utf-8">
     <title>Форма обратной связи</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <script>
     alert( 'Вы на странице формы обратной связи' );
     </script>
     <h1>Связаться с нами!</h1>
-    <form id="feedback">
-        <p>
-        Фамилия
-        <br>
-        <input type="text" id="lastname">
-        <br>
-        Имя
-        <br>
-        <input type="text" id="firstname">
-        <br>
-        Отчество
-        <br>
-        <input type="text" id="patronymic">
-        </p>
-        <p>Тема сообщения:<br>
-        <select id="topic">
-        <option value="1">Предложение</option>
-        <option value="2">Пожелание</option>
-        <option value="3">Потрындеть</option>
-        </select>
-        </p>
-        <p>
-        <input type="checkbox" id="email">Получить ответ по e-mail
-        </p>
-        <p>
-        <input type="submit" id="send" value="Отправить">
-        <input type="reset" id="clear" value="Начать заново">
-        </p>
-    </form>
-    <br>
-    <img src="images/feedback.GIF" alt="Обратная связь" width="50%">
+    <table>
+      <tr>
+        <th>
+          <form id="feedback">
+              <p>
+              Фамилия
+              <br>
+              <input type="text" id="lastname">
+              <br>
+              Имя
+              <br>
+              <input type="text" id="firstname">
+              <br>
+              Отчество
+              <br>
+              <input type="text" id="patronymic">
+              </p>
+              <p>Тема сообщения:<br>
+              <select id="topic">
+              <option value="1">Предложение</option>
+              <option value="2">Пожелание</option>
+              <option value="3">Потрындеть</option>
+              </select>
+              </p>
+              <p>
+              <input type="checkbox" id="email">Получить ответ по e-mail
+              </p>
+              <p>
+              <input type="submit" id="send" value="Отправить">
+              <input type="reset" id="clear" value="Начать заново">
+              </p>
+          </form>
+        </th>
+        <th>
+        <img src="images/feedback.GIF" alt="Обратная связь" width="50%">
+        </th>
+      </tr>
+    </table>
   </body>
 </html>
