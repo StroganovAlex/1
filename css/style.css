@@ -11,6 +11,7 @@ border-collapse: collapse;
 }
 
 th {
+background: white;
 font-weight: bold;
 padding: 50px;
 }
