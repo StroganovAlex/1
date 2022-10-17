@@ -14,9 +14,8 @@ font-weight: bold;
 padding: 20px;
 }
 
-.center-pic {
-display: block; /* элемент отображается на всю доступную ширину экрана */
-margin: auto;   /* отцентрировать элемент по горизонтали */
+.fullscreen {
+width: 100% /* ширина изображения 100% */
 }
 
 a {
