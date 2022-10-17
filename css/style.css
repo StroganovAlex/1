@@ -1,24 +1,22 @@
-h1 { text-align: center; }
+h1, h2, h3 { text-align: center; }
 
-h2 { text-align: center; }
+body.index-page { background-color: #1e2f49; }
 
-h3 { text-align: center; }
-
-table {
+table.index-page {
 width: 100%;
 background-color: #ffffff
 border-collapse: collapse;
 }
 
-th {
+th.index-page {
 background-color: #ffffff;
 font-weight: bold;
 padding: 20px;
 }
 
 .center-pic {
-display: block;
-margin: auto;
+display: block; /* элемент отображается на всю доступную ширину экрана */
+margin: auto;   /* отцентрировать элемент по горизонтали */
 }
 
 a {
