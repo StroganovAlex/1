@@ -4,31 +4,38 @@ body.index-page { background-color: #1e2f49; }
 
 table.index-page {
 width: 100%;
-background-color: #ffffff
+background-color: #ffffff;
 border-collapse: collapse;
 }
 
 th.index-page {
-background-color: #ffffff;
 font-weight: bold;
 padding: 20px;
 }
 
 table.vins-page {
 width: 100%;
-background-color: #ffffff
+background-color: #ffffff;
 border-collapse: collapse;
 }
 
+th.vins-page {
+padding: 20px;
+width: 33%;
+text-align: center;
+}
+
 th.index-button {
-background-color: #ffffff;
-font-weight: bold;
 padding: 20px;
 text-align: right;
 }
 
-.fullscreen {
-width: 100% /* ширина изображения 100% */
+img.fullscreen {
+width: 100% /* ширина изображения */
+}
+
+img.img-button {
+width: 5% /* ширина кнопки "домой" */
 }
 
 a {
