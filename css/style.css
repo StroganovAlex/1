@@ -2,7 +2,7 @@ h1, h2, h3 { text-align: center; }
 
 body.index-page { background-color: #1e2f49; }
 
-table.index-page {
+table {
 width: 100%;
 background-color: #ffffff;
 border-collapse: collapse;
@@ -11,12 +11,6 @@ border-collapse: collapse;
 th.index-page {
 font-weight: bold;
 padding: 20px;
-}
-
-table.vins-page {
-width: 100%;
-background-color: #ffffff;
-border-collapse: collapse;
 }
 
 th.vins-page {
@@ -30,12 +24,18 @@ padding: 20px;
 text-align: right;
 }
 
+th.feedback-page {
+padding: 20px;
+width: 45%;
+text-align: center;
+}
+
 img.fullscreen {
-width: 100% /* ширина изображения */
+width: 100%; /* ширина изображения */
 }
 
 img.img-button {
-width: 5% /* ширина кнопки "домой" */
+width: 10%; /* ширина кнопки "домой" */
 }
 
 a {
