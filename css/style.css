@@ -6,23 +6,23 @@ table {
 width: 100%;
 background-color: #ffffff;
 border-collapse: collapse;
+margin: 0 auto;
 }
 
 th.index-page {
 font-weight: bold;
 padding: 20px;
+border: 1px solid #1e2f49;
 }
 
 th.vins-page {
 padding: 20px;
 width: 33%;
-text-align: center;
 }
 
 th.feedback-page {
 padding: 20px;
 width: 33%;
-text-align: center;
 }
 
 th.index-button {
