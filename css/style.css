@@ -19,15 +19,15 @@ width: 33%;
 text-align: center;
 }
 
+th.feedback-page {
+padding: 20px;
+width: 33%;
+text-align: center;
+}
+
 th.index-button {
 padding: 20px;
 text-align: right;
-}
-
-th.feedback-page {
-padding: 20px;
-width: 45%;
-text-align: center;
 }
 
 img.fullscreen {
