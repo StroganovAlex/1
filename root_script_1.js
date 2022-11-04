@@ -84,6 +84,12 @@ function my_function(n) {   // скрипт рекурсивной функци�
   return my_function(n-1) + " " + n;
 }
 
+function testStr(a, b) {  // скрипт выдает суммарную длину строк а и б
+    myStringA = new String(a);
+    myStringB = new String(b);
+    return (myStringA.length + myStringB.length);
+}
+
 let userNameRequest = prompt('Как тебя зовут?', '');  // скрипт взаимодействия с пользователем
 alert(`Твое имя - ${userNameRequest}!`); // Твое имя!
 let isBoss = confirm(`${userNameRequest} ты здесь главный?`); // запрос у пользователя, главный ли он?
