@@ -98,6 +98,20 @@ function testArray(a, b) { // скрипт для суммирования эл�
     return z + w;
 }
 
+function testArray(a, b) { //функция преобразовывающая две строки в один массив, добавляющая элемент и, реверсирующая и выдающая объединенную строку элементов массива
+   myStringA = new String(a);
+   myStringB = new String(b);
+   let myArray = new Array();
+   let ab = myStringA.concat(myStringB);
+   for (let i = 0; i < ab.length; i=i+1)
+   {
+     myArray[i] = ab.charAt(i)
+   }
+   myArray.unshift('Иванов');
+   myArray.reverse();
+   return myArray.join(''); 
+}
+
 let userNameRequest = prompt('Как тебя зовут?', '');  // скрипт взаимодействия с пользователем
 alert(`Твое имя - ${userNameRequest}!`); // Твое имя!
 let isBoss = confirm(`${userNameRequest} ты здесь главный?`); // запрос у пользователя, главный ли он?
