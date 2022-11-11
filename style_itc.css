@@ -20,6 +20,13 @@ h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 8em;
   font-weight: 700;
+  transform: translateX(0);
+  animation-name: header_anim;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  text-transform: uppercase;
+  color: #fff;
+  align-self: center;
 }
 
 h2 {
