@@ -7,10 +7,4 @@ if (age <= 20) {  // Тебе меньше 20 лет!;
 } else {  // Тебе больше 50 лет!;
     headText = `Тебе ${age}! <br>Пора привыкать к земле!`;
 };
-
-if (typeof age == number) { // введены цифры;
-} else {  // введены не цифры;
-headText = "Попробуй еще раз, только на этот раз укажи возраст цифрами";
-};
-
 document.getElementById("ages").innerHTML = headText;
