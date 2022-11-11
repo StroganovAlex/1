@@ -1,8 +1,13 @@
-let age = prompt('Привет! Сколько тебе лет?', 100);
-if (age <= 20) {
-   alert(`Тебе ${age}! Еще совсем зеленый!`); // Тебе меньше 20 лет!;
-} else if (age <= 50) {
-   alert(`Тебе ${age}! В самом расцвете сил!`); // Тебе в интервале от 20 до 50 лет!; 
-} else {
-   alert(`Тебе ${age}! Пора привыкать к земле!`); // Тебе больше 50 лет!;
+let age = prompt('Привет! Сколько тебе лет?', 10);
+let headText = "<h1 class="header__title">Попробуй еще раз, только на этот раз укажи возраст цифрами";
+if (age <= 20) {  // Тебе меньше 20 лет!;
+    headText = "<h1 class="header__title">Еще совсем зеленый!";
+    alert(`Тебе ${age}!`);
+} else if (age <= 50) {  // Тебе в интервале от 20 до 50 лет!; 
+    headText = "<h1 class="header__title">В самом расцвете сил!";
+    alert(`Тебе ${age}!`); 
+} else {  // Тебе больше 50 лет!;
+    headText = "<h1 class="header__title">Пора привыкать к земле!";
+    alert(`Тебе ${age}!`); 
 }
+document.body.innerHTML = headText;
