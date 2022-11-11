@@ -9,5 +9,5 @@ if (age <= 20) {  // Тебе меньше 20 лет!;
 } else {  // Тебе больше 50 лет!;
     headText = "<h1>Пора привыкать к земле!</h1>";
     alert(`Тебе ${age}!`);
-}
-document.body.innerHTML = headText;
+};
+document.getElementById("ages").innerHTML = headText;
