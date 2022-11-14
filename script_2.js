@@ -98,21 +98,16 @@ function testArray(a, b) { // скрипт для суммирования эл�
     return z + w;
 }
 
-function testArray(a, b) { //функция преобразовывающая две строки в один массив, добавляющая элемент и, реверсирующая и выдающая объединенную строку элементов массива
-   myStringA = new String(a);
-   myStringB = new String(b);
-   let myArray = new Array();
-   let ab = myStringA.concat(myStringB);
-   for (let i = 0; i < ab.length; i=i+1)
-   {
-     myArray[i] = ab.charAt(i)
-   }
-   myArray.unshift('Иванов');
-   myArray.reverse();
-   return myArray.join(''); 
+function testDateTime(a, b) {
+   let myDateA = new Date();
+   let myDateB = new Date();
+   let newestDate = new Date();
+   let x = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
+        if (new Date(a) > new Date(b)){
+        newestDate = new Date(a);
+        return (x[newestDate.getDay()]);
+        } else {
+        newestDate = new Date(b);
+        return (x[newestDate.getDay()]);
+    };
 }
-
-let userNameRequest = prompt('Как тебя зовут?', '');  // скрипт взаимодействия с пользователем
-alert(`Твое имя - ${userNameRequest}!`); // Твое имя!
-let isBoss = confirm(`${userNameRequest} ты здесь главный?`); // запрос у пользователя, главный ли он?
-alert( isBoss ); // true, если нажата OK
