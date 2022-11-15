@@ -173,3 +173,8 @@ p {
 .white {
   color: #fff;
 }
+
+img.pxl {
+width: 1px; /* ширина изображения */
+height: 1px;
+}
