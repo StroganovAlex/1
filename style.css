@@ -1,6 +1,10 @@
 h1, h2, h3 { text-align: center; }
 
-body.index-page { background-color: #1e2f49; }
+body.index-page { 
+  background-color: #1e2f49; 
+  margin: 0;
+  padding: 0;
+}
 
 table {
 width: 100%;
