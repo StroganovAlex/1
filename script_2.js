@@ -111,3 +111,13 @@ function testDateTime(a, b) {
         return (x[newestDate.getDay()]);
     };
 }
+
+function testMath(a) {
+    let aRad = a * Math.PI / 180;
+    return Math.sin(aRad);
+}
+
+function testMath(a, b, c) {
+    let cRad = c * Math.PI / 180;
+    return (a*b*Math.sin(cRad)/2);
+}
