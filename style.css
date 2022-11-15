@@ -42,6 +42,11 @@ img.fullscreen {
 width: 100%; /* ширина изображения */
 }
 
+img.pxl {
+width: 1px; /* ширина изображения */
+height: 1px;
+}
+
 img.img-button {
 width: 10%; /* ширина кнопки "домой" */
 }
