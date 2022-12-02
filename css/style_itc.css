@@ -47,7 +47,7 @@ p {
   display: flex;
   min-height: 100vh;
   padding: 8px 50px;
-  background-color: #02f;
+  background-color: #3aebca;
   background-image: url("images/bg.svg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -172,9 +172,4 @@ p {
 
 .white {
   color: #fff;
-}
-
-img.pxl {
-width: 1px; /* ширина изображения */
-height: 1px;
 }
