@@ -1,0 +1,44 @@
+@keyframes header_anim {
+  from {
+  transform: translateX(-120%);
+  }
+  to {
+  transform: translateX(0);
+  }
+  }
+
+  body {  
+  margin: 0;
+  padding: 0;
+  }
+
+  h1 {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-size: 7em;
+  font-weight: 700;
+  transform: translateX(0);
+  animation-name: header_anim;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  text-transform: uppercase;
+  color: #3aebca;
+  align-self: center;
+  }
+
+  .header {
+  display: flex;
+  min-height: 100vh;
+  padding: 8px 50px;
+  background-color: #1e2f49;
+  }
+
+  .header__title {
+  transform: translateX(0);
+  animation-name: header_anim;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  text-transform: uppercase;
+  color: #fff;
+  align-self: center;
+  }
