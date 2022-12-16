@@ -22,7 +22,7 @@
   h1 {
   position: relative;
   font-family: "Montserrat", sans-serif;
-  font-size: 7em;
+  font-size: 6em;
   font-weight: 700;
   transform: translateX(0);
   animation-name: header_anim;
