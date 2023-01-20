@@ -18,13 +18,18 @@ document.querySelector('.howOld').addEventListener('click', function(e) {
 })  
 
 function reverse() {
-  let i = str.length - 1;
   let result = '';
-  while (i > -1) {
-    result = result + str[i];
-    i = i - 1;
-  }
+  let str = prompt('Привет! Какое слово перевернуть?', ОЛЯ);
+  if (age === null) {  // пользователь отказался вводить слово
+  result = "Привет<br>мир!";
+  } else {  
+    let i = str.length - 1;
+    while (i > -1) {
+      result = result + str[i];
+      i = i - 1;
+    }
     document.getElementById("ages").innerHTML = result; // обновление содержимого в элементе с id="ages"
+  }
 };
 document.querySelector('.apoj').addEventListener('click', function(e) {
     reverse();
