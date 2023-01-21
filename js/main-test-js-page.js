@@ -13,25 +13,25 @@ function update_header() { //функция обновления содержи�
     }
     document.getElementById("ages").innerHTML = headText; // обновление содержимого в элементе с id="ages"
 };
-document.querySelector('.howOld').addEventListener('click', function(e) {
+document.querySelector('.howOld').addEventListener('click', function() {
     update_header();
 })  
 
 function reverse() { //функция обновления содержимого элемента header при нажатии на ссылку "Скрипт №2: ОЛЯ-ЯЛО"
-    let result = '';
-    let str = prompt('Привет! Какое слово перевернуть?', ОЛЯ);
+    let headText = '';
+    let str = prompt('Привет! Какое слово перевернуть?', 0);
     if (age === null) {  // пользователь отказался вводить слово
-      result = "Привет<br>мир!";
+      headText = "Привет<br>мир!";
     } else { // пользователь ввел слово которое нужно инвертировать
     let i = str.length - 1;
     while (i > -1) {
-      result = result + str[i];
+      headText = headText + str[i];
       i = i - 1;
       }
     }    
-    document.getElementById("ages").innerHTML = result; // обновление содержимого в элементе с id="ages"
+    document.getElementById("ages").innerHTML = headText; // обновление содержимого в элементе с id="ages"
 };
-document.querySelector('.apoj').addEventListener('click', function(e) {
+document.querySelector('.apoj').addEventListener('click', function() {
     reverse();
 }) 
 
