@@ -19,8 +19,8 @@ document.querySelector('.howOld').addEventListener('click', function() {
 
 function reverse() { //функция обновления содержимого элемента header при нажатии на ссылку "Скрипт №2: ОЛЯ-ЯЛО"
     let headText = '';
-    let str = prompt('Привет! Какое слово перевернуть?', 0);
-    if (age === null) {  // пользователь отказался вводить слово
+    let str = prompt('Привет! Какое слово перевернуть?', ОЛЯ);
+    if (str === null) {  // пользователь отказался вводить слово
       headText = "Привет<br>мир!";
     } else { // пользователь ввел слово которое нужно инвертировать
     let i = str.length - 1;
