@@ -1,4 +1,4 @@
-function update_header() { //функция обновления содержимого элемента header при нажатии на ссылку "Сколько тебе лет?"
+function update_header() { //функция обновления содержимого элемента header при нажатии на ссылку "Скрипт №1: Сколько тебе лет?"
     let headText;
     let age = prompt('Привет! Сколько тебе лет?', 35);
     if (age === null) {  // пользователь отказался вводить возраст
@@ -17,19 +17,19 @@ document.querySelector('.howOld').addEventListener('click', function(e) {
     update_header();
 })  
 
-function reverse() {
-  let result = '';
-  let str = prompt('Привет! Какое слово перевернуть?', ОЛЯ);
-  if (age === null) {  // пользователь отказался вводить слово
-  result = "Привет<br>мир!";
-  } else {  
+function reverse() { //функция обновления содержимого элемента header при нажатии на ссылку "Скрипт №2: ОЛЯ-ЯЛО"
+    let result = '';
+    let str = prompt('Привет! Какое слово перевернуть?', ОЛЯ);
+    if (age === null) {  // пользователь отказался вводить слово
+      result = "Привет<br>мир!";
+    } else { // пользователь ввел слово которое нужно инвертировать
     let i = str.length - 1;
     while (i > -1) {
       result = result + str[i];
       i = i - 1;
-    }
+      }
+    }    
     document.getElementById("ages").innerHTML = result; // обновление содержимого в элементе с id="ages"
-  }
 };
 document.querySelector('.apoj').addEventListener('click', function(e) {
     reverse();
